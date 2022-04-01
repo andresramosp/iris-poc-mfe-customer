@@ -26,7 +26,7 @@ module.exports = defineConfig({
           } :
           // PRODUCTION
           {
-            Shell: 'Shell@https://iris-poc-mfe-shell.herokuapp.com/'
+            Shell: 'Shell@https://iris-poc-mfe-shell.herokuapp.com/remoteEntry.js'
           },
         exposes: {
           './MfeOne': './src/bootstrap.ts',
