@@ -6,7 +6,7 @@ module.exports = defineConfig({
    // DEVELOPMENT
     'http://localhost:9999/' :
     // PRODUCTION
-    '',
+    'https://iris-poc-mfe-customer.herokuapp.com/',
   devServer: { port: 9999 },
   configureWebpack: {
     optimization: {
@@ -26,7 +26,7 @@ module.exports = defineConfig({
           } :
           // PRODUCTION
           {
-            Shell: 'Shell@http://localhost:8080/remoteEntry.js'
+            Shell: 'Shell@https://iris-poc-mfe-shell.herokuapp.com/'
           },
         exposes: {
           './MfeOne': './src/bootstrap.ts',

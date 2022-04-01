@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve --mode local",
     "build": "vue-cli-service build --mode prod",
     "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "start": "node server.ts"
   },
   "dependencies": {
     "core-js": "^3.8.3",
